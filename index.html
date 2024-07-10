@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Kopi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+            color: rgb(255, 255, 255);
+        }
+        .hero-text {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .featured img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .testimony {
+            background-color: #594545;
+            padding: 50px 0;
+        }
+        .pricing {
+            background-color: #fff8ea;
+            padding: 50px 0;
+        }
+        .contact-us {
+            padding: 50px 0;
+        }
+        footer {
+            background-color: #594545;
+            color: white;
+            padding: 20px 0;
+        }
+        .bg-coffe {
+            background-color: #594545;
+        }
+        .bg-whitecoffe{
+            background-color: #fff8ea;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-coffe">
+        <div class="container">
+            <a class="navbar-brand" href="#">Toko Kopi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#featured">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimony">Testimony</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero d-flex align-items-center justify-content-center">
+        <div class="container text-center hero-text">
+            <h1 class="display-4">Selamat Datang di Toko Kopi</h1>
+            <p class="lead">Nikmati kopi terbaik dari berbagai penjuru dunia.</p>
+            <a href="#featured" class="btn btn-primary btn-lg bg-coffe">Lihat Produk Kami</a>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section id="featured" class="featured py-5">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>Featured Products</h2>
+                    <p class="lead">Produk kopi unggulan kami yang wajib dicoba.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1610889556528-9a770e32642f?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Espresso">
+                        <div class="card-body">
+                            <h5 class="card-title">Espresso</h5>
+                            <p class="card-text">Kopi espresso dengan rasa yang kuat dan nikmat.</p>
+                            <a href="#" class="btn btn-primary bg-coffe">Beli Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Latte">
+                        <div class="card-body">
+                            <h5 class="card-title">Latte</h5>
+                            <p class="card-text">Perpaduan kopi dan susu yang sempurna.</p>
+                            <a href="#" class="btn btn-primary bg-coffe">Beli Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1633401941646-199b6b11f1da?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Cappuccino">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <p class="card-text">Kopi dengan busa susu yang lembut dan lezat.</p>
+                            <a href="#" class="btn btn-primary bg-coffe">Beli Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimony Section -->
+    <section id="testimony" class="testimony">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>What Our Customers Say</h2>
+                    <p class="lead">Testimoni dari pelanggan setia kami.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Kopi yang luar biasa! Rasa dan aromanya sangat khas dan memikat. Saya pasti akan kembali untuk membeli lagi."</p>
+                            <p class="card-footer text-muted">- Elmo Raditya</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Pelayanan yang sangat ramah dan cepat. Kopi latte mereka adalah favorit saya. Sangat direkomendasikan!"</p>
+                            <p class="card-footer text-muted">- Agung Surya</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Toko kopi ini memiliki berbagai macam pilihan kopi yang sangat enak. Sangat puas dengan produk mereka."</p>
+                            <p class="card-footer text-muted">- Fariz Mahardika</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>Our Pricing</h2>
+                    <p class="lead">Harga terbaik untuk produk kopi terbaik.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Paket Standar
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Rp50.000</h5>
+                            <p class="card-text">Cocok untuk pemula yang ingin mencoba berbagai jenis kopi.</p>
+                            <a href="#" class="btn btn-primary bg-coffe">Pilih Paket</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Paket Premium
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Rp100.000</h5>
+                            <p class="card-text">Pilihan yang lebih lengkap dengan harga yang terjangkau.</p>
+                            <a href="#" class="btn btn-primary bg-coffe">Pilih Paket</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Paket Eksklusif
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Rp175.000</h5>
+                            <p class="card-text">Paket lengkap untuk pecinta kopi sejati.</p>
+                            <a href="#" class="btn btn-primary bg-coffe">Pilih Paket</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact-us" class="contact-us">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>Contact Us</h2>
+                    <p class="lead">Hubungi kami untuk informasi lebih lanjut atau pertanyaan.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nama</label>
+                            <input type="text" class="form-control" id="name" placeholder="Nama Anda">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Pesan Anda"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary bg-coffe">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2024 Toko Kopi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
